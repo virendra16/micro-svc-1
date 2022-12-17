@@ -19,7 +19,7 @@ pipeline {
             steps {
                 sh '''
                 # applykubectl
-                kubectl apply -f namespaces.yaml deployment.yaml svc.yaml ingress.yaml '''
+                kubectl apply -f . '''
             }
         }
          stage('validation') {
