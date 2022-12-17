@@ -19,6 +19,7 @@ pipeline {
             steps {
                 sh '''
                 # applykubectl
+                cd k8s/
                 kubectl apply -f . '''
             }
         }
@@ -26,6 +27,7 @@ pipeline {
             steps {
                 sh '''
                 # applykubectl
+                cd k8s/
                 kubectl get po -A # -A for all namespace sh '''
             }
         }
