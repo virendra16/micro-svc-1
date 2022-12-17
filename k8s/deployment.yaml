@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name:  static-website
-  namespace: default
+  namespace: static
   labels:
     app:  static-website
 spec:

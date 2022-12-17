@@ -1,4 +1,9 @@
-apiversion: v1
+# apiversion: v1
+# kind: Namespace
+# metadata:
+#   name: static
+
+apiVersion: v1
 kind: Namespace
 metadata:
   name: static
